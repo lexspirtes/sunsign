@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ED068CAF8DFB595EDAF3CDD /* Pods_reactiveHoroscopeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80C6719963FBE0D8EBC254D /* Pods_reactiveHoroscopeUITests.framework */; };
+		4D97626C13968C80BE48725B /* Pods_reactiveHoroscope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDFD28A934B79D8BE1A949E /* Pods_reactiveHoroscope.framework */; };
+		C459C3B55F72B779086A6FC2 /* Pods_reactiveHoroscopeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A6FE76156813A0C6226E58 /* Pods_reactiveHoroscopeTests.framework */; };
+		D7318B8F22BA9438009D14A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7318B8E22BA9438009D14A9 /* AppDelegate.swift */; };
+		D7318B9122BA9438009D14A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7318B9022BA9438009D14A9 /* ViewController.swift */; };
+		D7318B9622BA943E009D14A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7318B9522BA943E009D14A9 /* Assets.xcassets */; };
+		D7318BA422BA943F009D14A9 /* reactiveHoroscopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7318BA322BA943F009D14A9 /* reactiveHoroscopeTests.swift */; };
+		D7318BAF22BA943F009D14A9 /* reactiveHoroscopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7318BAE22BA943F009D14A9 /* reactiveHoroscopeUITests.swift */; };
+		D786B99022BBEA7B00E18AB5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786B98F22BBEA7B00E18AB5 /* Extensions.swift */; };
+		D786B99222BBF6C200E18AB5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786B99122BBF6C200E18AB5 /* PageViewController.swift */; };
+		D786B99422BBF9E500E18AB5 /* PageWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786B99322BBF9E500E18AB5 /* PageWay.swift */; };
+		D786B99622C291CC00E18AB5 /* HoroscopeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786B99522C291CC00E18AB5 /* HoroscopeViewModel.swift */; };
+		D786B99822C291F600E18AB5 /* ViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786B99722C291F600E18AB5 /* ViewModel2.swift */; };
+		D786B99A22C2921C00E18AB5 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786B99922C2921C00E18AB5 /* VC2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7318BA022BA943F009D14A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7318B8322BA9438009D14A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7318B8A22BA9438009D14A9;
+			remoteInfo = reactiveHoroscope;
+		};
+		D7318BAB22BA943F009D14A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7318B8322BA9438009D14A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7318B8A22BA9438009D14A9;
+			remoteInfo = reactiveHoroscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EEBC7BC20A47FE0ED7F4612 /* Pods-reactiveHoroscopeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveHoroscopeTests.release.xcconfig"; path = "Target Support Files/Pods-reactiveHoroscopeTests/Pods-reactiveHoroscopeTests.release.xcconfig"; sourceTree = "<group>"; };
+		10E4557D8BD74C4B9C62A167 /* Pods-reactiveHoroscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveHoroscope.release.xcconfig"; path = "Target Support Files/Pods-reactiveHoroscope/Pods-reactiveHoroscope.release.xcconfig"; sourceTree = "<group>"; };
+		620B6227E7ADF96F6A07DF23 /* Pods-reactiveHoroscopeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveHoroscopeUITests.debug.xcconfig"; path = "Target Support Files/Pods-reactiveHoroscopeUITests/Pods-reactiveHoroscopeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A6FE76156813A0C6226E58 /* Pods_reactiveHoroscopeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactiveHoroscopeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80C6719963FBE0D8EBC254D /* Pods_reactiveHoroscopeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactiveHoroscopeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDFD28A934B79D8BE1A949E /* Pods_reactiveHoroscope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactiveHoroscope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA6C29C9C7300938FBDA73D /* Pods-reactiveHoroscopeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveHoroscopeTests.debug.xcconfig"; path = "Target Support Files/Pods-reactiveHoroscopeTests/Pods-reactiveHoroscopeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B46B3D602F198CEDE07E91CA /* Pods-reactiveHoroscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveHoroscope.debug.xcconfig"; path = "Target Support Files/Pods-reactiveHoroscope/Pods-reactiveHoroscope.debug.xcconfig"; sourceTree = "<group>"; };
+		D513F4D59BAABC859B46A9A8 /* Pods-reactiveHoroscopeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveHoroscopeUITests.release.xcconfig"; path = "Target Support Files/Pods-reactiveHoroscopeUITests/Pods-reactiveHoroscopeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7318B8B22BA9438009D14A9 /* reactiveHoroscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactiveHoroscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7318B8E22BA9438009D14A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7318B9022BA9438009D14A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7318B9522BA943E009D14A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7318B9A22BA943E009D14A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7318B9F22BA943F009D14A9 /* reactiveHoroscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactiveHoroscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7318BA322BA943F009D14A9 /* reactiveHoroscopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactiveHoroscopeTests.swift; sourceTree = "<group>"; };
+		D7318BA522BA943F009D14A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7318BAA22BA943F009D14A9 /* reactiveHoroscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactiveHoroscopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7318BAE22BA943F009D14A9 /* reactiveHoroscopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactiveHoroscopeUITests.swift; sourceTree = "<group>"; };
+		D7318BB022BA943F009D14A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D786B98F22BBEA7B00E18AB5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D786B99122BBF6C200E18AB5 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		D786B99322BBF9E500E18AB5 /* PageWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageWay.swift; sourceTree = "<group>"; };
+		D786B99522C291CC00E18AB5 /* HoroscopeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeViewModel.swift; sourceTree = "<group>"; };
+		D786B99722C291F600E18AB5 /* ViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel2.swift; sourceTree = "<group>"; };
+		D786B99922C2921C00E18AB5 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7318B8822BA9438009D14A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D97626C13968C80BE48725B /* Pods_reactiveHoroscope.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7318B9C22BA943F009D14A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C459C3B55F72B779086A6FC2 /* Pods_reactiveHoroscopeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7318BA722BA943F009D14A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED068CAF8DFB595EDAF3CDD /* Pods_reactiveHoroscopeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438121E73B61B79286BDF85C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFD28A934B79D8BE1A949E /* Pods_reactiveHoroscope.framework */,
+				93A6FE76156813A0C6226E58 /* Pods_reactiveHoroscopeTests.framework */,
+				A80C6719963FBE0D8EBC254D /* Pods_reactiveHoroscopeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3F3A0C24377755D3B1CACD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B46B3D602F198CEDE07E91CA /* Pods-reactiveHoroscope.debug.xcconfig */,
+				10E4557D8BD74C4B9C62A167 /* Pods-reactiveHoroscope.release.xcconfig */,
+				AEA6C29C9C7300938FBDA73D /* Pods-reactiveHoroscopeTests.debug.xcconfig */,
+				0EEBC7BC20A47FE0ED7F4612 /* Pods-reactiveHoroscopeTests.release.xcconfig */,
+				620B6227E7ADF96F6A07DF23 /* Pods-reactiveHoroscopeUITests.debug.xcconfig */,
+				D513F4D59BAABC859B46A9A8 /* Pods-reactiveHoroscopeUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7318B8222BA9438009D14A9 = {
+			isa = PBXGroup;
+			children = (
+				D7318B8D22BA9438009D14A9 /* reactiveHoroscope */,
+				D7318BA222BA943F009D14A9 /* reactiveHoroscopeTests */,
+				D7318BAD22BA943F009D14A9 /* reactiveHoroscopeUITests */,
+				D7318B8C22BA9438009D14A9 /* Products */,
+				A3F3A0C24377755D3B1CACD3 /* Pods */,
+				438121E73B61B79286BDF85C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7318B8C22BA9438009D14A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7318B8B22BA9438009D14A9 /* reactiveHoroscope.app */,
+				D7318B9F22BA943F009D14A9 /* reactiveHoroscopeTests.xctest */,
+				D7318BAA22BA943F009D14A9 /* reactiveHoroscopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7318B8D22BA9438009D14A9 /* reactiveHoroscope */ = {
+			isa = PBXGroup;
+			children = (
+				D7318B8E22BA9438009D14A9 /* AppDelegate.swift */,
+				D786B98F22BBEA7B00E18AB5 /* Extensions.swift */,
+				D786B99C22C2923C00E18AB5 /* ViewControllers */,
+				D786B99B22C2922B00E18AB5 /* ViewModels */,
+				D786B99D22C3F94000E18AB5 /* Pagination */,
+				D7318B9522BA943E009D14A9 /* Assets.xcassets */,
+				D7318B9A22BA943E009D14A9 /* Info.plist */,
+			);
+			path = reactiveHoroscope;
+			sourceTree = "<group>";
+		};
+		D7318BA222BA943F009D14A9 /* reactiveHoroscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7318BA322BA943F009D14A9 /* reactiveHoroscopeTests.swift */,
+				D7318BA522BA943F009D14A9 /* Info.plist */,
+			);
+			path = reactiveHoroscopeTests;
+			sourceTree = "<group>";
+		};
+		D7318BAD22BA943F009D14A9 /* reactiveHoroscopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7318BAE22BA943F009D14A9 /* reactiveHoroscopeUITests.swift */,
+				D7318BB022BA943F009D14A9 /* Info.plist */,
+			);
+			path = reactiveHoroscopeUITests;
+			sourceTree = "<group>";
+		};
+		D786B99B22C2922B00E18AB5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D786B99522C291CC00E18AB5 /* HoroscopeViewModel.swift */,
+				D786B99722C291F600E18AB5 /* ViewModel2.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D786B99C22C2923C00E18AB5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D786B99922C2921C00E18AB5 /* VC2.swift */,
+				D7318B9022BA9438009D14A9 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D786B99D22C3F94000E18AB5 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				D786B99322BBF9E500E18AB5 /* PageWay.swift */,
+				D786B99122BBF6C200E18AB5 /* PageViewController.swift */,
+			);
+			path = Pagination;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7318B8A22BA9438009D14A9 /* reactiveHoroscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7318BB322BA943F009D14A9 /* Build configuration list for PBXNativeTarget "reactiveHoroscope" */;
+			buildPhases = (
+				1B4456CBE95F2CBCECB62AB6 /* [CP] Check Pods Manifest.lock */,
+				D7318B8722BA9438009D14A9 /* Sources */,
+				D7318B8822BA9438009D14A9 /* Frameworks */,
+				D7318B8922BA9438009D14A9 /* Resources */,
+				7951E396FCA443CD1348BAF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reactiveHoroscope;
+			productName = reactiveHoroscope;
+			productReference = D7318B8B22BA9438009D14A9 /* reactiveHoroscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7318B9E22BA943F009D14A9 /* reactiveHoroscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7318BB622BA943F009D14A9 /* Build configuration list for PBXNativeTarget "reactiveHoroscopeTests" */;
+			buildPhases = (
+				9CFF2D28F56451282E3D9466 /* [CP] Check Pods Manifest.lock */,
+				D7318B9B22BA943F009D14A9 /* Sources */,
+				D7318B9C22BA943F009D14A9 /* Frameworks */,
+				D7318B9D22BA943F009D14A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7318BA122BA943F009D14A9 /* PBXTargetDependency */,
+			);
+			name = reactiveHoroscopeTests;
+			productName = reactiveHoroscopeTests;
+			productReference = D7318B9F22BA943F009D14A9 /* reactiveHoroscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7318BA922BA943F009D14A9 /* reactiveHoroscopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7318BB922BA943F009D14A9 /* Build configuration list for PBXNativeTarget "reactiveHoroscopeUITests" */;
+			buildPhases = (
+				4059E1FA586F7013E55A7C29 /* [CP] Check Pods Manifest.lock */,
+				D7318BA622BA943F009D14A9 /* Sources */,
+				D7318BA722BA943F009D14A9 /* Frameworks */,
+				D7318BA822BA943F009D14A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7318BAC22BA943F009D14A9 /* PBXTargetDependency */,
+			);
+			name = reactiveHoroscopeUITests;
+			productName = reactiveHoroscopeUITests;
+			productReference = D7318BAA22BA943F009D14A9 /* reactiveHoroscopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7318B8322BA9438009D14A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alexandra Spirtes";
+				TargetAttributes = {
+					D7318B8A22BA9438009D14A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D7318B9E22BA943F009D14A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D7318B8A22BA9438009D14A9;
+					};
+					D7318BA922BA943F009D14A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D7318B8A22BA9438009D14A9;
+					};
+				};
+			};
+			buildConfigurationList = D7318B8622BA9438009D14A9 /* Build configuration list for PBXProject "reactiveHoroscope" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7318B8222BA9438009D14A9;
+			productRefGroup = D7318B8C22BA9438009D14A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7318B8A22BA9438009D14A9 /* reactiveHoroscope */,
+				D7318B9E22BA943F009D14A9 /* reactiveHoroscopeTests */,
+				D7318BA922BA943F009D14A9 /* reactiveHoroscopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7318B8922BA9438009D14A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7318B9622BA943E009D14A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7318B9D22BA943F009D14A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7318BA822BA943F009D14A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4456CBE95F2CBCECB62AB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactiveHoroscope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4059E1FA586F7013E55A7C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactiveHoroscopeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7951E396FCA443CD1348BAF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactiveHoroscope/Pods-reactiveHoroscope-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactiveHoroscope/Pods-reactiveHoroscope-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactiveHoroscope/Pods-reactiveHoroscope-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFF2D28F56451282E3D9466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactiveHoroscopeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7318B8722BA9438009D14A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7318B9122BA9438009D14A9 /* ViewController.swift in Sources */,
+				D786B99022BBEA7B00E18AB5 /* Extensions.swift in Sources */,
+				D7318B8F22BA9438009D14A9 /* AppDelegate.swift in Sources */,
+				D786B99622C291CC00E18AB5 /* HoroscopeViewModel.swift in Sources */,
+				D786B99222BBF6C200E18AB5 /* PageViewController.swift in Sources */,
+				D786B99422BBF9E500E18AB5 /* PageWay.swift in Sources */,
+				D786B99822C291F600E18AB5 /* ViewModel2.swift in Sources */,
+				D786B99A22C2921C00E18AB5 /* VC2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7318B9B22BA943F009D14A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7318BA422BA943F009D14A9 /* reactiveHoroscopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7318BA622BA943F009D14A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7318BAF22BA943F009D14A9 /* reactiveHoroscopeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7318BA122BA943F009D14A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7318B8A22BA9438009D14A9 /* reactiveHoroscope */;
+			targetProxy = D7318BA022BA943F009D14A9 /* PBXContainerItemProxy */;
+		};
+		D7318BAC22BA943F009D14A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7318B8A22BA9438009D14A9 /* reactiveHoroscope */;
+			targetProxy = D7318BAB22BA943F009D14A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7318BB122BA943F009D14A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7318BB222BA943F009D14A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7318BB422BA943F009D14A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46B3D602F198CEDE07E91CA /* Pods-reactiveHoroscope.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7X442793;
+				INFOPLIST_FILE = reactiveHoroscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lex.reactiveHoroscope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7318BB522BA943F009D14A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E4557D8BD74C4B9C62A167 /* Pods-reactiveHoroscope.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7X442793;
+				INFOPLIST_FILE = reactiveHoroscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lex.reactiveHoroscope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7318BB722BA943F009D14A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA6C29C9C7300938FBDA73D /* Pods-reactiveHoroscopeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7X442793;
+				INFOPLIST_FILE = reactiveHoroscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lex.reactiveHoroscopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactiveHoroscope.app/reactiveHoroscope";
+			};
+			name = Debug;
+		};
+		D7318BB822BA943F009D14A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EEBC7BC20A47FE0ED7F4612 /* Pods-reactiveHoroscopeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7X442793;
+				INFOPLIST_FILE = reactiveHoroscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lex.reactiveHoroscopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactiveHoroscope.app/reactiveHoroscope";
+			};
+			name = Release;
+		};
+		D7318BBA22BA943F009D14A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620B6227E7ADF96F6A07DF23 /* Pods-reactiveHoroscopeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7X442793;
+				INFOPLIST_FILE = reactiveHoroscopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lex.reactiveHoroscopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reactiveHoroscope;
+			};
+			name = Debug;
+		};
+		D7318BBB22BA943F009D14A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D513F4D59BAABC859B46A9A8 /* Pods-reactiveHoroscopeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7X442793;
+				INFOPLIST_FILE = reactiveHoroscopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lex.reactiveHoroscopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reactiveHoroscope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7318B8622BA9438009D14A9 /* Build configuration list for PBXProject "reactiveHoroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7318BB122BA943F009D14A9 /* Debug */,
+				D7318BB222BA943F009D14A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7318BB322BA943F009D14A9 /* Build configuration list for PBXNativeTarget "reactiveHoroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7318BB422BA943F009D14A9 /* Debug */,
+				D7318BB522BA943F009D14A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7318BB622BA943F009D14A9 /* Build configuration list for PBXNativeTarget "reactiveHoroscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7318BB722BA943F009D14A9 /* Debug */,
+				D7318BB822BA943F009D14A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7318BB922BA943F009D14A9 /* Build configuration list for PBXNativeTarget "reactiveHoroscopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7318BBA22BA943F009D14A9 /* Debug */,
+				D7318BBB22BA943F009D14A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7318B8322BA9438009D14A9 /* Project object */;
+}
