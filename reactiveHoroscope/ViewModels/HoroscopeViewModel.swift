@@ -31,6 +31,26 @@ class HoroscopeViewModel {
             .map { _ in () }
     }
     
+    var combined: Signal<(), NoError> {
+        return Signal.combineLatest(self.dateSignal, self.nameSignal)
+            .map { _ in () }
+    }
+    
+    //combine latest --> sort of like an or
+    //merge two signals of same type and interweave them
+    
+    var dateSignal: Signal<(), NoError> {
+        return self.date
+            .signal
+            .map { _ in ()}
+    }
+    
+    var nameSignal: Signal<(), NoError> {
+        return self.name
+            .signal
+            .map { _ in () }
+    }
+    
     func tapButton() {
         self.buttonTapped.send(value: ())
     }
